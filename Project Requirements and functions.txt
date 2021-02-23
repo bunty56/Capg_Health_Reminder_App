@@ -1,0 +1,31 @@
+Functionalities:
+
+1. Set Reminder for medication:
+-----------------------------------
+Enter medicine name, day and time of the week
+we will send notification and set alarm accordingly
+
+2.Mental Health tips:
+-------------------------
+on clicking, the user will be asked to enter a rating based on their mood.
+Based on rating, mental health tips will be displayed.
+
+3. View Doctors for appointment & storing medical history.
+---------------------------------------------------------------
+For Doctors:
+The user can look for doctors and their free slots and can book appointment.
+On confirming appointment, we provide the contact details or a meeting link is 
+scheduled.
+
+For medical history:
+We allow the user to store any type of medical reports in any format for future
+references and easy access
+
+4. Detailed Info on any disease
+---------------------------------
+Create a Database with few diseases and disorders and show it as a dummy prototype
+when the user searches for.
+
+5. Diet tracker
+-----------------
+BMI based plans Diet plans by default.
