@@ -1,0 +1,51 @@
+1. Customer details/Patient
+2. Set Alarm/notification Module -  set reminder for medication
+3. Appointment, Medical Report, Doctors -> Doctor appointment
+4. Disease table- separate -> Disease info
+5. BMI table (BMI value, diet) ->Diet tracker
+6. Mental health (rating,corresponding suggestion)
+7. Follow-up Table( for diet and mental health)
+8. medical history table
+
+1. Patient details - Naman
+-----------------
+patient_id, email, name, mobile, age, height, weight
+
+2. Medical history - Naman
+---------------
+patient_id, file, notes
+
+3. Alarm module  - Ankit
+------------
+patient_id,alarm_id,alarm_name,alarm_time,alarm_date,notes
+
+4. Doctor   - Ankit
+------
+doct_id, verf_status, doc_name, doc_spec,certificate_file
+
+5. App_slots  - Sayantan
+----------
+doct_id, doc_date, doc_st_time, doc_end_time
+
+6. Appointment     - Sayantan
+----------------
+app_id, patient_id,App_slots
+
+7. Disease - populated  - Shania
+--------
+dis_id,dis_name,dis_info,list<dis_keywords>
+
+8. Mental Health - populated  - Shania
+-------------
+mental_rating, mental_tip 
+
+9. Diet table -populated - Parth
+-----------
+BMI value, diet name/info
+
+10. Follow-up-table  - Parth
+---------------
+patient_id, date,mental_rating,diet status
+
+
+
